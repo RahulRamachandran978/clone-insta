@@ -19,6 +19,14 @@ const ProfileHeader = () => {
                     <Text as='span' fontWeight={'bold'} mr={1}>4</Text>
                     Posts
                 </Text>
+                <Text>
+                    <Text as='span' fontWeight={'bold'} mr={1}>149</Text>
+                    Followers
+                </Text>
+                <Text>
+                    <Text as='span' fontWeight={'bold'} mr={1}>124</Text>
+                    Following
+                </Text>
             </Flex>
         </VStack>
     </Flex>
