@@ -15,19 +15,23 @@ const ProfileHeader = () => {
                     </Flex>
             </Flex>
             <Flex alignItems={'center'} gap={{base:2,sm:4}}> 
-                <Text>
+                <Text fontSize={{base:'xs',md:'sm'}}>
                     <Text as='span' fontWeight={'bold'} mr={1}>4</Text>
                     Posts
                 </Text>
-                <Text>
+                <Text fontSize={{base:'xs',md:'sm'}}>
                     <Text as='span' fontWeight={'bold'} mr={1}>149</Text>
                     Followers
                 </Text>
-                <Text>
+                <Text fontSize={{base:'xs',md:'sm'}}>
                     <Text as='span' fontWeight={'bold'} mr={1}>124</Text>
                     Following
                 </Text>
             </Flex>
+            <Flex alignItems={'center'} gap={4}>
+                <Text fontSize={'sm'} fontWeight={'bold'}>As a Programmer</Text>
+            </Flex>
+            <Text fontSize={'sm'}>Tutorials that are ment to level up your Skills as a programmer.</Text>
         </VStack>
     </Flex>
   )
